@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FaceSDKForQNJ'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'face++ V2版本 方便马甲包集成 不包含action'
 
 # This description is used to generate tags and improve search results.
@@ -30,14 +30,15 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FaceSDKForQNJ/Classes/**/*'
+  s.source_files = 'FaceSDKForQNJ/Classes/**/*.{h,m,mm}'
   s.ios.vendored_frameworks = [
   #face++
   'FaceSDKForQNJ/Classes/MGBaseKit.framework',
   'FaceSDKForQNJ/Classes/MGIDCard.framework',
   'FaceSDKForQNJ/Classes/MGLivenessDetection.framework',
   ]
-  s.source_files = 'FaceSDKForQNJ/Classes/**/*.{h,m,mm}'
+  #  s.source_files = 'FaceSDKForQNJ/Classes/**/*.{h,m,mm}'
+  s.public_header_files = 'FaceSDKForQNJ/Classes/**/*.h'
   s.resources =  [
   'FaceSDKForQNJ/Classes/MGIDCardResource.bundle',
   'FaceSDKForQNJ/Classes/MGLivenessDetectionResource.bundle',

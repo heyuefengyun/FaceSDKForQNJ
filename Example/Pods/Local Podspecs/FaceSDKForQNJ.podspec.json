@@ -1,6 +1,6 @@
 {
   "name": "FaceSDKForQNJ",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "face++ V2版本 方便马甲包集成 不包含action",
   "description": "去哪借sdk v2版本 只单独包含face++",
   "homepage": "https://github.com/heyuefengyun/FaceSDKForQNJ",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:heyuefengyun/FaceSDKForQNJ.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -26,6 +26,7 @@
       "FaceSDKForQNJ/Classes/MGLivenessDetection.framework"
     ]
   },
+  "public_header_files": "FaceSDKForQNJ/Classes/**/*.h",
   "resources": [
     "FaceSDKForQNJ/Classes/MGIDCardResource.bundle",
     "FaceSDKForQNJ/Classes/MGLivenessDetectionResource.bundle"
