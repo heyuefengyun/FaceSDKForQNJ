@@ -1,0 +1,27 @@
+PODS:
+  - FaceSDKForQNJ (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - FaceSDKForQNJ (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  FaceSDKForQNJ:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FaceSDKForQNJ: 7cc58a9715fa4839f6af6bd5d05b1c380039f8ea
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: b9c2d8a3ddd8f6994ff854210d1ce7504e1ebdd8
+
+COCOAPODS: 1.7.5

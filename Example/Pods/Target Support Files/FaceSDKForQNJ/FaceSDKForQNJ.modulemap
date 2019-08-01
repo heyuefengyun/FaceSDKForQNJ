@@ -1,0 +1,6 @@
+framework module FaceSDKForQNJ {
+  umbrella header "FaceSDKForQNJ-umbrella.h"
+
+  export *
+  module * { export * }
+}
