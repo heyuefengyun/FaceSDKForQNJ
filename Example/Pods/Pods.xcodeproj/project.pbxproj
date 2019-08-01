@@ -7,54 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
-		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
-		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		28FC58EB57FE65366491EFC24A56E1E9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0060A3467CB59A64765983B5ACDB9290 /* ReplaceMe.m */; };
-		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
-		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4BF9BD4F700DB99AABB084D0529AD1AA /* FaceSDKForQNJ-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 258E9C694844D455C7DF72531DBE9EDE /* FaceSDKForQNJ-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62557D9A231F0125D45B04F3FA743FD4 /* Pods-FaceSDKForQNJ_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65DD9FE20F2F688D2447BB7FC29AEB87 /* Pods-FaceSDKForQNJ_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
-		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
-		766B82F440DAA54C137BC39E30CEB5CD /* FaceSDKForQNJ-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B321029B291E81CC4D801277A369662E /* FaceSDKForQNJ-dummy.m */; };
-		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
-		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
-		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92FE0A67FDD796727DD8005D457D77BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
-		9E83DA3CAC48E03727D9CC1832F10ADB /* Pods-FaceSDKForQNJ_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD66EE644D46BA51CE5C6DC517123EA0 /* Pods-FaceSDKForQNJ_Example-dummy.m */; };
-		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
-		AA0588BCEFBBB4977320F3C79571F137 /* Pods-FaceSDKForQNJ_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 941DC7183AF452B3260882DE220327AD /* Pods-FaceSDKForQNJ_Tests-dummy.m */; };
-		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D1807D440FB149C0FCAABFAA95961D93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		D2CA496A17E7EF94B25FAEADB5CB7220 /* Pods-FaceSDKForQNJ_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D9748843F48FE164EF98A59694A90C /* Pods-FaceSDKForQNJ_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF509BE43C638458E75D31073A2E6067 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
-		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
-		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05BB8E89DA86F81F38443B5D5B173162 /* MGIDBoxLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = AC93ED3AC4C31FA00866845AE1AD8B9E /* MGIDBoxLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		065A96D2AF892BDA103D1D52A4F3118C /* FaceSDKForQNJ-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE93C7D4B1AA2F5311110D1A0ADC1909 /* FaceSDKForQNJ-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08EE42A8F71E67B37A35F104E3FAF325 /* MGLiveManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A83FA40B820A3A29ED481695FFBDF0C /* MGLiveManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E332CFA5754396B38898C309A42410B /* MGLiveBaseDetectViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9553CF452F562ED92BF19E10719AFB6A /* MGLiveBaseDetectViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		102C4E36735EF28BF8C012216D7CEEE1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B53912576F9FBF836EC094810158523 /* SystemConfiguration.framework */; };
+		114855D81CF43EAE3760783EB7FF7EC0 /* MGMovieRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF22A7CBD5A3F11251199A1AB099E6E /* MGMovieRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16E2653C84B6E1C24FE3341372EA84EF /* MGIDCardResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D3117B172F8F748CF1740E277E3C7592 /* MGIDCardResource.bundle */; };
+		16E4C0A0C6F89EF8BD0EA3D2CF40B1FB /* LivenessDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB76B31B33AB0200129E527751F8064 /* LivenessDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		224FC282B75B948225921015A00E59E6 /* MGPlayAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = EA64CB52D4709F734A16806A12A6865A /* MGPlayAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B893596299C803551E3B91CD02663F4 /* MGLicenseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7181640125DA616E0AD5ABC00847A5 /* MGLicenseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8E542EBA70C56AA684327396186799 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 291E4A46B10343D3D60A02B119E9787C /* Foundation.framework */; };
+		3AB15C8EAAFD81A54B82721EBB908247 /* MGLiveActionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D0F80018262C316E4C89ACA0608AFF /* MGLiveActionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AEA8EC5C8540EE849365FE852807888 /* MGCountDownTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 855D8A86EF5F43DAC32D97DE08AB7B0D /* MGCountDownTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ED7570480876F6777FCA9E70673B7DD /* MGIDCardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BCECADCB669662F14AA202DD4F9E3D /* MGIDCardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FE9520F24D06C76D10A9CD5C872C5D6 /* MGVideoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BA27E152BF2F898572F6DE5A60195192 /* MGVideoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40DA5CB58AC009E09B68F4C165E30736 /* MGLivenessDetectionResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DFB685F705E34A34E4E4A84E1414D39D /* MGLivenessDetectionResource.bundle */; };
+		49B7ECDACB01AFB2F6798DDD9AF9892A /* MGLiveDetectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A731BA2500B39BF29BF73EF9B8B9FC03 /* MGLiveDetectionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E7C7F06A80E212FF04A4CAAFD853C53 /* MGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 592F83AFBDD540211DAEFBCC26170E9E /* MGImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F3464306355D32A4612AEE9B3D04815 /* MGLiveDefaultDetectVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D1514EAF58BB1F0C528BBF914F1C774 /* MGLiveDefaultDetectVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5558EAFA742332241E7253FB4327FE34 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F8516DB2C91EC0A247EA681D61C3BE /* ReplaceMe.m */; };
+		5614884A590045A51E132FF820927618 /* MGIDCardBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = E461392ECFC6E3074105AE33EA94AB44 /* MGIDCardBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		591418F2EE698B710BDF536C0DAB5863 /* MGLiveDetectViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C57314B2FE1FBC0268367A5FA2F6F615 /* MGLiveDetectViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D22C314E87E6BC6D6B2457A75E7595F /* MGBaseBottomManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B0334F98FF7ED2416C5ABA28D18A4DE4 /* MGBaseBottomManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A7A1F9087088DEE82A5C8227009EA93 /* MGBaseCountdownView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED5D8D03950A0F016C6CE1DB4C122849 /* MGBaseCountdownView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DEA674EFCB3322A3AC7FF82DDA5D084 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA95B78997ADE7FE96A4321F730ACDF /* AVFoundation.framework */; };
+		6DFCD3A635EBDED7DE518195587D445B /* MGIDCardDetectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF9FB18BF6AA93197A12DB0EC1F821C /* MGIDCardDetectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F03E9D54715E63E60FEC311CCEED84B /* MGDefaultBottomManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA2789C76B926DF289B98E092238293 /* MGDefaultBottomManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7750623EEB9EB9F220329F12FD153701 /* MGLiveErrorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22A90301BBF5039B7E775C085B6E08C5 /* MGLiveErrorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CFF99A5F0D163686AEE505A7AF042C9 /* MGVideoDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EBCE8C32C630F3F59CCC100F65E19CC /* MGVideoDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		809A79A064DAFC0AA8468F664A81246D /* MGIDCardModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 934DD89FEFE80FDE45A4FD74726D3BA5 /* MGIDCardModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		857DB6D680E1D2961DE82A4FBF2B7BBE /* MGCountDownRingView.h in Headers */ = {isa = PBXBuildFile; fileRef = D770632C022A7079C39687E869C93532 /* MGCountDownRingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B1630E0D4FE68A39B4037603742DAE9 /* LicenseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ECC25FDB11C37A0959EA21A40EC61E0D /* LicenseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B56B5B5D549DD7AC8BC97B729E4F5CA /* MGBaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1413F36B935C9274C872033DA803C253 /* MGBaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C65CEE2FE241A22901D7479B4B7A33D /* MGIDCardDetectBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 920B794F1E5349E754355C31C90E374E /* MGIDCardDetectBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		901A72396F36A5820E3271120BB887A0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F62424721DAB8FE6C3D6EC5AF8A12B /* CoreMedia.framework */; };
+		97D86169F5D0304E8687937879D650BD /* MGFaceQualityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DF6C0864A209A7E2C9EDF5C31CA0EF /* MGFaceQualityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E83DA3CAC48E03727D9CC1832F10ADB /* Pods-FaceSDKForQNJ_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A382AE5383EDF2C2F08E71403F5856C6 /* Pods-FaceSDKForQNJ_Example-dummy.m */; };
+		A5D3E250EA27D29BC90E06B3D8BB7A75 /* MGLiveBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F6D1B7CB12C38136451163E66460C3 /* MGLiveBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7943F14AC42FA710F48CC080945E3A4 /* MGIDCardQualityAssessment.h in Headers */ = {isa = PBXBuildFile; fileRef = 7012846DE1D804C821752FCBA8111146 /* MGIDCardQualityAssessment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB6B3C6EF830DF5B80A0A8BAD63EDF03 /* MGLogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CC28AEB5C076141C11E6F45852092577 /* MGLogManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0DD3B137CD3C5FABA22354B76FB9F58 /* MGIDCardConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1667802BDA7C572F6C95D1548856BD1F /* MGIDCardConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B24B40D0EB39B686D0E546C206015559 /* MGIDCard.h in Headers */ = {isa = PBXBuildFile; fileRef = F71FEAC75A7E6503B931D4372657E401 /* MGIDCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B615C5B4B9422ED448B507852876C9F6 /* MGLiveConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F90C872E5383C42D7878228F6256DBA3 /* MGLiveConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7BCF7F12950BE6F4C5A44107AE65024 /* MGLivenessDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 38052F0F69B8950DEDC8C6118CDD4A24 /* MGLivenessDetection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B95C9831B85A3570C4B7D11E9B94F475 /* MGAutoSessionPreset.h in Headers */ = {isa = PBXBuildFile; fileRef = A82AB6924EDC347CE7BD8BD8F6C69C2B /* MGAutoSessionPreset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB512FAE1E955B30A37FD2AE8775D6A7 /* FaceSDKForQNJ-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7917F2381D5E027681D27C5F3E406CAE /* FaceSDKForQNJ-dummy.m */; };
+		D16A28FBC43E163F8DE0D8C124488488 /* LivenessEnumType.h in Headers */ = {isa = PBXBuildFile; fileRef = 466D9365B2CC32B9E414264F18E1A06E /* LivenessEnumType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1807D440FB149C0FCAABFAA95961D93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 291E4A46B10343D3D60A02B119E9787C /* Foundation.framework */; };
+		D2CA496A17E7EF94B25FAEADB5CB7220 /* Pods-FaceSDKForQNJ_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F31CED29C93A29F59FCC1BE0D46D38A8 /* Pods-FaceSDKForQNJ_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4ED3BE88D2255A624286EF03B5E3FEB /* MGAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CADD8C8005099913E616DB989168906E /* MGAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D56E1B1172546DC40B202E564E1A2485 /* MGBaseDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C25B4971703D3E1CFF4AF7A58DD98E /* MGBaseDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF8DCD8FF8B6ADD471A0E9095A18DB6F /* MGLiveDetectionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7582DCE05EDA7B13710E6AF69BB83CFE /* MGLiveDetectionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E54AA41A2ACE41FCFD93373558CD60C8 /* MGIDCardDefaultViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 14937C39E13C9DB65294031DA18599FE /* MGIDCardDefaultViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7022D01B6512C4CCF6C0540ACD8179B /* MGIDCardViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F540236AE9DDF27A70294DB9AE3459D6 /* MGIDCardViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0CDC860C8B1D9F2CAA62574982C78F7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1219DA3F48D6B292B18A9AB6F1D70C /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A80E5A0BE4C178721A988ED639C3BD5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		B1D5D8047A6A08A9A53FF502CA1233D3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BCBCF2B9604FF0DD4440890F4BA9CCBE;
-			remoteInfo = "Pods-FaceSDKForQNJ_Example";
-		};
 		F569E5310B73839E5C2A679498DB870B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -65,64 +75,80 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0060A3467CB59A64765983B5ACDB9290 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FaceSDKForQNJ/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		044C09C290F83392DFE6CAE12920A82F /* Pods-FaceSDKForQNJ_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FaceSDKForQNJ_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		04A9E67A5016F389DD9FE8D9E4693CC9 /* Pods-FaceSDKForQNJ_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaceSDKForQNJ_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		258E9C694844D455C7DF72531DBE9EDE /* FaceSDKForQNJ-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FaceSDKForQNJ-umbrella.h"; sourceTree = "<group>"; };
-		2C232A587F2F0637E7BB5026AEF91F7E /* Pods_FaceSDKForQNJ_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FaceSDKForQNJ_Tests.framework; path = "Pods-FaceSDKForQNJ_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B067BADBAD910DB6E1C7729A81BC9E /* FaceSDKForQNJ.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceSDKForQNJ.xcconfig; sourceTree = "<group>"; };
+		07D0F80018262C316E4C89ACA0608AFF /* MGLiveActionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGLiveActionManager.h; sourceTree = "<group>"; };
+		0A2656136DD066110713A2F8B776A7A1 /* Pods-FaceSDKForQNJ_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaceSDKForQNJ_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1413F36B935C9274C872033DA803C253 /* MGBaseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGBaseKit.h; sourceTree = "<group>"; };
+		14937C39E13C9DB65294031DA18599FE /* MGIDCardDefaultViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGIDCardDefaultViewController.h; sourceTree = "<group>"; };
+		1667802BDA7C572F6C95D1548856BD1F /* MGIDCardConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGIDCardConfig.h; sourceTree = "<group>"; };
+		17DDCAB97AE093C420367A76AAC2E4DE /* MGLivenessDetection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MGLivenessDetection.framework; path = FaceSDKForQNJ/Classes/MGLivenessDetection.framework; sourceTree = "<group>"; };
+		21448A217794F877C63981F01577706B /* Pods-FaceSDKForQNJ_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaceSDKForQNJ_Example.release.xcconfig"; sourceTree = "<group>"; };
+		22A90301BBF5039B7E775C085B6E08C5 /* MGLiveErrorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGLiveErrorManager.h; sourceTree = "<group>"; };
+		24BCECADCB669662F14AA202DD4F9E3D /* MGIDCardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGIDCardManager.h; sourceTree = "<group>"; };
+		291E4A46B10343D3D60A02B119E9787C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		29F8516DB2C91EC0A247EA681D61C3BE /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FaceSDKForQNJ/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		33FA01389D5149A9C7426C8313C78A21 /* Pods_FaceSDKForQNJ_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FaceSDKForQNJ_Example.framework; path = "Pods-FaceSDKForQNJ_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		474BD5487E3A093268EF18CF42860AEB /* Pods-FaceSDKForQNJ_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FaceSDKForQNJ_Tests.modulemap"; sourceTree = "<group>"; };
-		4BA461A876B42BAFBF7503DD48F92646 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4ED7E9F946D369532E95C3A4B365E3F8 /* Pods-FaceSDKForQNJ_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaceSDKForQNJ_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6293783DDA8920D8B695BD49E128FC9D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		62C013F43AB3D13942FDDC63084E89F1 /* FaceSDKForQNJ.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FaceSDKForQNJ.modulemap; sourceTree = "<group>"; };
-		65DD9FE20F2F688D2447BB7FC29AEB87 /* Pods-FaceSDKForQNJ_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FaceSDKForQNJ_Tests-umbrella.h"; sourceTree = "<group>"; };
-		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		74DAD310AE8C5A91C355CE120EA8569C /* FaceSDKForQNJ-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FaceSDKForQNJ-Info.plist"; sourceTree = "<group>"; };
-		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7C9779A772E698FBA37CCE101DC61577 /* Pods-FaceSDKForQNJ_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FaceSDKForQNJ_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8D321C4DFEFA063F549650F4A0F8ECFE /* Pods-FaceSDKForQNJ_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FaceSDKForQNJ_Tests-Info.plist"; sourceTree = "<group>"; };
-		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		92D9748843F48FE164EF98A59694A90C /* Pods-FaceSDKForQNJ_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FaceSDKForQNJ_Example-umbrella.h"; sourceTree = "<group>"; };
-		936D6C633DA3C73C0A7A8C9B1AF1D7B5 /* Pods-FaceSDKForQNJ_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaceSDKForQNJ_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93FFF4AAE5469D72CAA3F7DB46A3AA0C /* Pods-FaceSDKForQNJ_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaceSDKForQNJ_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		941DC7183AF452B3260882DE220327AD /* Pods-FaceSDKForQNJ_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FaceSDKForQNJ_Tests-dummy.m"; sourceTree = "<group>"; };
-		96CF8DFF515CFBE29158C52B4C028C56 /* FaceSDKForQNJ.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceSDKForQNJ.xcconfig; sourceTree = "<group>"; };
-		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		9B966DB2A4BBEE2430835D7226F10D07 /* Pods-FaceSDKForQNJ_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FaceSDKForQNJ_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38052F0F69B8950DEDC8C6118CDD4A24 /* MGLivenessDetection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGLivenessDetection.h; sourceTree = "<group>"; };
+		437F28301B629C387685FB3B616B0201 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		466D9365B2CC32B9E414264F18E1A06E /* LivenessEnumType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LivenessEnumType.h; sourceTree = "<group>"; };
+		4A83FA40B820A3A29ED481695FFBDF0C /* MGLiveManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGLiveManager.h; sourceTree = "<group>"; };
+		583F6EC0827183FFBA92DA11EAEE8CB2 /* FaceSDKForQNJ.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FaceSDKForQNJ.modulemap; sourceTree = "<group>"; };
+		592F83AFBDD540211DAEFBCC26170E9E /* MGImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGImage.h; sourceTree = "<group>"; };
+		5F321A1C8303B9DB9BF7F44B3167643F /* MGIDCard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MGIDCard.framework; path = FaceSDKForQNJ/Classes/MGIDCard.framework; sourceTree = "<group>"; };
+		65F6D1B7CB12C38136451163E66460C3 /* MGLiveBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGLiveBundle.h; sourceTree = "<group>"; };
+		7012846DE1D804C821752FCBA8111146 /* MGIDCardQualityAssessment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGIDCardQualityAssessment.h; sourceTree = "<group>"; };
+		7582DCE05EDA7B13710E6AF69BB83CFE /* MGLiveDetectionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGLiveDetectionManager.h; sourceTree = "<group>"; };
+		78F62424721DAB8FE6C3D6EC5AF8A12B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		7917F2381D5E027681D27C5F3E406CAE /* FaceSDKForQNJ-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FaceSDKForQNJ-dummy.m"; sourceTree = "<group>"; };
+		7B53912576F9FBF836EC094810158523 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		7EBCE8C32C630F3F59CCC100F65E19CC /* MGVideoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGVideoDelegate.h; sourceTree = "<group>"; };
+		8553DFD5AE12DD6B9BB207C17F5400A5 /* MGBaseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MGBaseKit.framework; path = FaceSDKForQNJ/Classes/MGBaseKit.framework; sourceTree = "<group>"; };
+		855D8A86EF5F43DAC32D97DE08AB7B0D /* MGCountDownTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCountDownTextView.h; sourceTree = "<group>"; };
+		8D1514EAF58BB1F0C528BBF914F1C774 /* MGLiveDefaultDetectVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGLiveDefaultDetectVC.h; sourceTree = "<group>"; };
+		8FB76B31B33AB0200129E527751F8064 /* LivenessDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LivenessDetector.h; sourceTree = "<group>"; };
+		920B794F1E5349E754355C31C90E374E /* MGIDCardDetectBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGIDCardDetectBaseViewController.h; sourceTree = "<group>"; };
+		934DD89FEFE80FDE45A4FD74726D3BA5 /* MGIDCardModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGIDCardModel.h; sourceTree = "<group>"; };
+		9553CF452F562ED92BF19E10719AFB6A /* MGLiveBaseDetectViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGLiveBaseDetectViewController.h; sourceTree = "<group>"; };
+		9B1219DA3F48D6B292B18A9AB6F1D70C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E734D8E3A56C0D55B57676E0F012AE6 /* FaceSDKForQNJ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FaceSDKForQNJ.framework; path = FaceSDKForQNJ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		A8BAD493BFCC446B26521129726B7098 /* FaceSDKForQNJ.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FaceSDKForQNJ.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		AF1A27947E2A813AEF097EAD72ECA7CB /* Pods-FaceSDKForQNJ_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaceSDKForQNJ_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B321029B291E81CC4D801277A369662E /* FaceSDKForQNJ-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FaceSDKForQNJ-dummy.m"; sourceTree = "<group>"; };
-		BBA62C4C01A97F1E19A7C6D2826895BF /* Pods-FaceSDKForQNJ_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FaceSDKForQNJ_Example.modulemap"; sourceTree = "<group>"; };
-		CD66EE644D46BA51CE5C6DC517123EA0 /* Pods-FaceSDKForQNJ_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FaceSDKForQNJ_Example-dummy.m"; sourceTree = "<group>"; };
-		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		D4314822D8BA1ECD4ABD80A0B7F6DE88 /* Pods-FaceSDKForQNJ_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FaceSDKForQNJ_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D56C158E3A1C06090115037483247979 /* FaceSDKForQNJ-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FaceSDKForQNJ-prefix.pch"; sourceTree = "<group>"; };
-		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		F748FD3E9714FBC0898FE9A44A8264F5 /* Pods-FaceSDKForQNJ_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FaceSDKForQNJ_Example-Info.plist"; sourceTree = "<group>"; };
-		FC1F273544AEA28E5AB68E2725042277 /* Pods-FaceSDKForQNJ_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaceSDKForQNJ_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9F35247AAEDEF038DDAB9737D4C6E9DB /* Pods-FaceSDKForQNJ_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaceSDKForQNJ_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A382AE5383EDF2C2F08E71403F5856C6 /* Pods-FaceSDKForQNJ_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FaceSDKForQNJ_Example-dummy.m"; sourceTree = "<group>"; };
+		A731BA2500B39BF29BF73EF9B8B9FC03 /* MGLiveDetectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGLiveDetectionDelegate.h; sourceTree = "<group>"; };
+		A82AB6924EDC347CE7BD8BD8F6C69C2B /* MGAutoSessionPreset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGAutoSessionPreset.h; sourceTree = "<group>"; };
+		AC93ED3AC4C31FA00866845AE1AD8B9E /* MGIDBoxLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGIDBoxLayer.h; sourceTree = "<group>"; };
+		ADA95B78997ADE7FE96A4321F730ACDF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		AE93C7D4B1AA2F5311110D1A0ADC1909 /* FaceSDKForQNJ-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FaceSDKForQNJ-umbrella.h"; sourceTree = "<group>"; };
+		B0334F98FF7ED2416C5ABA28D18A4DE4 /* MGBaseBottomManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGBaseBottomManager.h; sourceTree = "<group>"; };
+		BA27E152BF2F898572F6DE5A60195192 /* MGVideoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGVideoManager.h; sourceTree = "<group>"; };
+		BD85DED324FDF438B73AC9392694EE5D /* Pods-FaceSDKForQNJ_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FaceSDKForQNJ_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BEF9FB18BF6AA93197A12DB0EC1F821C /* MGIDCardDetectManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGIDCardDetectManager.h; sourceTree = "<group>"; };
+		C2C25B4971703D3E1CFF4AF7A58DD98E /* MGBaseDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGBaseDefine.h; sourceTree = "<group>"; };
+		C57314B2FE1FBC0268367A5FA2F6F615 /* MGLiveDetectViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGLiveDetectViewController.h; sourceTree = "<group>"; };
+		C6DA7694D2F613FB1902384FF7B67449 /* Pods-FaceSDKForQNJ_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FaceSDKForQNJ_Example-Info.plist"; sourceTree = "<group>"; };
+		CADD8C8005099913E616DB989168906E /* MGAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGAnimation.h; sourceTree = "<group>"; };
+		CC28AEB5C076141C11E6F45852092577 /* MGLogManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGLogManager.h; sourceTree = "<group>"; };
+		CDF22A7CBD5A3F11251199A1AB099E6E /* MGMovieRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGMovieRecorder.h; sourceTree = "<group>"; };
+		CF86D6EC91DBB8BE3F75F5CD5FE96702 /* Pods-FaceSDKForQNJ_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FaceSDKForQNJ_Example.modulemap"; sourceTree = "<group>"; };
+		D3117B172F8F748CF1740E277E3C7592 /* MGIDCardResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MGIDCardResource.bundle; path = FaceSDKForQNJ/Classes/MGIDCardResource.bundle; sourceTree = "<group>"; };
+		D4DF6C0864A209A7E2C9EDF5C31CA0EF /* MGFaceQualityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGFaceQualityManager.h; sourceTree = "<group>"; };
+		D770632C022A7079C39687E869C93532 /* MGCountDownRingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGCountDownRingView.h; sourceTree = "<group>"; };
+		DC3EC921772F60C88BDD902DB79FE8B8 /* FaceSDKForQNJ-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FaceSDKForQNJ-prefix.pch"; sourceTree = "<group>"; };
+		DFB685F705E34A34E4E4A84E1414D39D /* MGLivenessDetectionResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MGLivenessDetectionResource.bundle; path = FaceSDKForQNJ/Classes/MGLivenessDetectionResource.bundle; sourceTree = "<group>"; };
+		E217C18F7EE51D1D11472CD1F14E9CDB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E461392ECFC6E3074105AE33EA94AB44 /* MGIDCardBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGIDCardBundle.h; sourceTree = "<group>"; };
+		EA64CB52D4709F734A16806A12A6865A /* MGPlayAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGPlayAudio.h; sourceTree = "<group>"; };
+		ECC25FDB11C37A0959EA21A40EC61E0D /* LicenseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LicenseManager.h; sourceTree = "<group>"; };
+		ED5D8D03950A0F016C6CE1DB4C122849 /* MGBaseCountdownView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGBaseCountdownView.h; sourceTree = "<group>"; };
+		F2F456F76607FB51B6193CD3DE53BE64 /* Pods-FaceSDKForQNJ_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FaceSDKForQNJ_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F31CED29C93A29F59FCC1BE0D46D38A8 /* Pods-FaceSDKForQNJ_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FaceSDKForQNJ_Example-umbrella.h"; sourceTree = "<group>"; };
+		F4A7AA2A8E53C107CF747CCAC73FEF6D /* FaceSDKForQNJ.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FaceSDKForQNJ.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F540236AE9DDF27A70294DB9AE3459D6 /* MGIDCardViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGIDCardViewController.h; sourceTree = "<group>"; };
+		F71FEAC75A7E6503B931D4372657E401 /* MGIDCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGIDCard.h; sourceTree = "<group>"; };
+		F90C872E5383C42D7878228F6256DBA3 /* MGLiveConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGLiveConfig.h; sourceTree = "<group>"; };
+		FD7181640125DA616E0AD5ABC00847A5 /* MGLicenseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGLicenseManager.h; sourceTree = "<group>"; };
+		FE58000C3150D64889212D2144B0A105 /* FaceSDKForQNJ-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FaceSDKForQNJ-Info.plist"; sourceTree = "<group>"; };
+		FFA2789C76B926DF289B98E092238293 /* MGDefaultBottomManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGDefaultBottomManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,252 +160,249 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C23CB98488CE2D3F0C4F849E31C56DE0 /* Frameworks */ = {
+		F92813CEB6BAD58D9A915A6D16562E68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF509BE43C638458E75D31073A2E6067 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C49004A3F5457B8AE975E7EE662644CA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92FE0A67FDD796727DD8005D457D77BE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
-				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
-				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
-				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
+				6DEA674EFCB3322A3AC7FF82DDA5D084 /* AVFoundation.framework in Frameworks */,
+				901A72396F36A5820E3271120BB887A0 /* CoreMedia.framework in Frameworks */,
+				F0CDC860C8B1D9F2CAA62574982C78F7 /* CoreMotion.framework in Frameworks */,
+				2B8E542EBA70C56AA684327396186799 /* Foundation.framework in Frameworks */,
+				102C4E36735EF28BF8C012216D7CEEE1 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02E902E05F4DDDAC7A76147420B73A2B /* FaceSDKForQNJ */ = {
+		06ED1323643145D2F653D140A66B2BD3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0060A3467CB59A64765983B5ACDB9290 /* ReplaceMe.m */,
-				A5CE54CF7BA6FD4F0AB5998D4C5C55BB /* Pod */,
-				0D664D76FADD6455CBEF8627913D465B /* Support Files */,
+				683A43FB302E8048B6E8D9A3758283EE /* FaceSDKForQNJ */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		078EFBED181F52EAA7E65BCB12B643D2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F4A7AA2A8E53C107CF747CCAC73FEF6D /* FaceSDKForQNJ.podspec */,
+				437F28301B629C387685FB3B616B0201 /* LICENSE */,
+				E217C18F7EE51D1D11472CD1F14E9CDB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		14819937796079664ECF6078B79D3ADD /* MGBaseKit.framework */ = {
+			isa = PBXGroup;
+			children = (
+				1B27D1986612B4A13067437189FAE5B1 /* Headers */,
+			);
+			name = MGBaseKit.framework;
+			path = FaceSDKForQNJ/Classes/MGBaseKit.framework;
+			sourceTree = "<group>";
+		};
+		1B27D1986612B4A13067437189FAE5B1 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				ECC25FDB11C37A0959EA21A40EC61E0D /* LicenseManager.h */,
+				CADD8C8005099913E616DB989168906E /* MGAnimation.h */,
+				A82AB6924EDC347CE7BD8BD8F6C69C2B /* MGAutoSessionPreset.h */,
+				C2C25B4971703D3E1CFF4AF7A58DD98E /* MGBaseDefine.h */,
+				1413F36B935C9274C872033DA803C253 /* MGBaseKit.h */,
+				592F83AFBDD540211DAEFBCC26170E9E /* MGImage.h */,
+				FD7181640125DA616E0AD5ABC00847A5 /* MGLicenseManager.h */,
+				CC28AEB5C076141C11E6F45852092577 /* MGLogManager.h */,
+				CDF22A7CBD5A3F11251199A1AB099E6E /* MGMovieRecorder.h */,
+				7EBCE8C32C630F3F59CCC100F65E19CC /* MGVideoDelegate.h */,
+				BA27E152BF2F898572F6DE5A60195192 /* MGVideoManager.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		1D965D4281FBEC0D073B7C1BE847DCF7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D3117B172F8F748CF1740E277E3C7592 /* MGIDCardResource.bundle */,
+				DFB685F705E34A34E4E4A84E1414D39D /* MGLivenessDetectionResource.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		560306A8CDB9369B61752EC27C75271D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF0E05939DA815188AD20429F65943C9 /* Pods-FaceSDKForQNJ_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		683A43FB302E8048B6E8D9A3758283EE /* FaceSDKForQNJ */ = {
+			isa = PBXGroup;
+			children = (
+				29F8516DB2C91EC0A247EA681D61C3BE /* ReplaceMe.m */,
+				F1CA143F6CFAAFA1280B32286FF2F71E /* Frameworks */,
+				14819937796079664ECF6078B79D3ADD /* MGBaseKit.framework */,
+				95BFE2BF2F5259B88FD26BE68DA287A6 /* MGIDCard.framework */,
+				B073AD2E87290721B417B6E7238FC847 /* MGLivenessDetection.framework */,
+				078EFBED181F52EAA7E65BCB12B643D2 /* Pod */,
+				1D965D4281FBEC0D073B7C1BE847DCF7 /* Resources */,
+				BDEF41A7F6863F1D13E2C0C866DE0E1A /* Support Files */,
 			);
 			name = FaceSDKForQNJ;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		0D664D76FADD6455CBEF8627913D465B /* Support Files */ = {
+		7529F15B7109176745C602A691397D01 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				62C013F43AB3D13942FDDC63084E89F1 /* FaceSDKForQNJ.modulemap */,
-				96CF8DFF515CFBE29158C52B4C028C56 /* FaceSDKForQNJ.xcconfig */,
-				B321029B291E81CC4D801277A369662E /* FaceSDKForQNJ-dummy.m */,
-				74DAD310AE8C5A91C355CE120EA8569C /* FaceSDKForQNJ-Info.plist */,
-				D56C158E3A1C06090115037483247979 /* FaceSDKForQNJ-prefix.pch */,
-				258E9C694844D455C7DF72531DBE9EDE /* FaceSDKForQNJ-umbrella.h */,
+				8FB76B31B33AB0200129E527751F8064 /* LivenessDetector.h */,
+				466D9365B2CC32B9E414264F18E1A06E /* LivenessEnumType.h */,
+				B0334F98FF7ED2416C5ABA28D18A4DE4 /* MGBaseBottomManager.h */,
+				ED5D8D03950A0F016C6CE1DB4C122849 /* MGBaseCountdownView.h */,
+				D770632C022A7079C39687E869C93532 /* MGCountDownRingView.h */,
+				855D8A86EF5F43DAC32D97DE08AB7B0D /* MGCountDownTextView.h */,
+				FFA2789C76B926DF289B98E092238293 /* MGDefaultBottomManager.h */,
+				D4DF6C0864A209A7E2C9EDF5C31CA0EF /* MGFaceQualityManager.h */,
+				07D0F80018262C316E4C89ACA0608AFF /* MGLiveActionManager.h */,
+				9553CF452F562ED92BF19E10719AFB6A /* MGLiveBaseDetectViewController.h */,
+				65F6D1B7CB12C38136451163E66460C3 /* MGLiveBundle.h */,
+				F90C872E5383C42D7878228F6256DBA3 /* MGLiveConfig.h */,
+				8D1514EAF58BB1F0C528BBF914F1C774 /* MGLiveDefaultDetectVC.h */,
+				A731BA2500B39BF29BF73EF9B8B9FC03 /* MGLiveDetectionDelegate.h */,
+				7582DCE05EDA7B13710E6AF69BB83CFE /* MGLiveDetectionManager.h */,
+				C57314B2FE1FBC0268367A5FA2F6F615 /* MGLiveDetectViewController.h */,
+				22A90301BBF5039B7E775C085B6E08C5 /* MGLiveErrorManager.h */,
+				4A83FA40B820A3A29ED481695FFBDF0C /* MGLiveManager.h */,
+				38052F0F69B8950DEDC8C6118CDD4A24 /* MGLivenessDetection.h */,
+				EA64CB52D4709F734A16806A12A6865A /* MGPlayAudio.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		95BFE2BF2F5259B88FD26BE68DA287A6 /* MGIDCard.framework */ = {
+			isa = PBXGroup;
+			children = (
+				CFB5FC376209BC090B20595FA8EC4BE1 /* Headers */,
+			);
+			name = MGIDCard.framework;
+			path = FaceSDKForQNJ/Classes/MGIDCard.framework;
+			sourceTree = "<group>";
+		};
+		B073AD2E87290721B417B6E7238FC847 /* MGLivenessDetection.framework */ = {
+			isa = PBXGroup;
+			children = (
+				7529F15B7109176745C602A691397D01 /* Headers */,
+			);
+			name = MGLivenessDetection.framework;
+			path = FaceSDKForQNJ/Classes/MGLivenessDetection.framework;
+			sourceTree = "<group>";
+		};
+		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F91D97821369BF58286016901A15C2C2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDEF41A7F6863F1D13E2C0C866DE0E1A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				583F6EC0827183FFBA92DA11EAEE8CB2 /* FaceSDKForQNJ.modulemap */,
+				01B067BADBAD910DB6E1C7729A81BC9E /* FaceSDKForQNJ.xcconfig */,
+				7917F2381D5E027681D27C5F3E406CAE /* FaceSDKForQNJ-dummy.m */,
+				FE58000C3150D64889212D2144B0A105 /* FaceSDKForQNJ-Info.plist */,
+				DC3EC921772F60C88BDD902DB79FE8B8 /* FaceSDKForQNJ-prefix.pch */,
+				AE93C7D4B1AA2F5311110D1A0ADC1909 /* FaceSDKForQNJ-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/FaceSDKForQNJ";
 			sourceTree = "<group>";
 		};
-		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
+		BF0E05939DA815188AD20429F65943C9 /* Pods-FaceSDKForQNJ_Example */ = {
 			isa = PBXGroup;
 			children = (
-				98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */,
-				418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */,
-				3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */,
-				1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */,
-				746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */,
-				E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		5F5755423632AF481EA261B6B5137C35 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A0495016141590AD700AA8F118A6A38C /* Pods-FaceSDKForQNJ_Example */,
-				6E74507AA34226DC6DA194A4C3DB5721 /* Pods-FaceSDKForQNJ_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		6E74507AA34226DC6DA194A4C3DB5721 /* Pods-FaceSDKForQNJ_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				474BD5487E3A093268EF18CF42860AEB /* Pods-FaceSDKForQNJ_Tests.modulemap */,
-				9B966DB2A4BBEE2430835D7226F10D07 /* Pods-FaceSDKForQNJ_Tests-acknowledgements.markdown */,
-				044C09C290F83392DFE6CAE12920A82F /* Pods-FaceSDKForQNJ_Tests-acknowledgements.plist */,
-				941DC7183AF452B3260882DE220327AD /* Pods-FaceSDKForQNJ_Tests-dummy.m */,
-				FC1F273544AEA28E5AB68E2725042277 /* Pods-FaceSDKForQNJ_Tests-frameworks.sh */,
-				8D321C4DFEFA063F549650F4A0F8ECFE /* Pods-FaceSDKForQNJ_Tests-Info.plist */,
-				65DD9FE20F2F688D2447BB7FC29AEB87 /* Pods-FaceSDKForQNJ_Tests-umbrella.h */,
-				936D6C633DA3C73C0A7A8C9B1AF1D7B5 /* Pods-FaceSDKForQNJ_Tests.debug.xcconfig */,
-				4ED7E9F946D369532E95C3A4B365E3F8 /* Pods-FaceSDKForQNJ_Tests.release.xcconfig */,
-			);
-			name = "Pods-FaceSDKForQNJ_Tests";
-			path = "Target Support Files/Pods-FaceSDKForQNJ_Tests";
-			sourceTree = "<group>";
-		};
-		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
-				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
-				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
-				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */ = {
-			isa = PBXGroup;
-			children = (
-				82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				9DD967528FC2F5BD41E45879D4B78BEE /* Core */,
-				45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */,
-				820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */,
-			);
-			name = FBSnapshotTestCase;
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		932D9120F6641C0E9915F3672E57707E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				02E902E05F4DDDAC7A76147420B73A2B /* FaceSDKForQNJ */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9DD967528FC2F5BD41E45879D4B78BEE /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */,
-				13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */,
-				D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */,
-				AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */,
-				88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */,
-				DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */,
-				0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */,
-				8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */,
-				A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */,
-				EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */,
-				E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */,
-				E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */,
-				EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */,
-				AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		A0495016141590AD700AA8F118A6A38C /* Pods-FaceSDKForQNJ_Example */ = {
-			isa = PBXGroup;
-			children = (
-				BBA62C4C01A97F1E19A7C6D2826895BF /* Pods-FaceSDKForQNJ_Example.modulemap */,
-				7C9779A772E698FBA37CCE101DC61577 /* Pods-FaceSDKForQNJ_Example-acknowledgements.markdown */,
-				D4314822D8BA1ECD4ABD80A0B7F6DE88 /* Pods-FaceSDKForQNJ_Example-acknowledgements.plist */,
-				CD66EE644D46BA51CE5C6DC517123EA0 /* Pods-FaceSDKForQNJ_Example-dummy.m */,
-				04A9E67A5016F389DD9FE8D9E4693CC9 /* Pods-FaceSDKForQNJ_Example-frameworks.sh */,
-				F748FD3E9714FBC0898FE9A44A8264F5 /* Pods-FaceSDKForQNJ_Example-Info.plist */,
-				92D9748843F48FE164EF98A59694A90C /* Pods-FaceSDKForQNJ_Example-umbrella.h */,
-				93FFF4AAE5469D72CAA3F7DB46A3AA0C /* Pods-FaceSDKForQNJ_Example.debug.xcconfig */,
-				AF1A27947E2A813AEF097EAD72ECA7CB /* Pods-FaceSDKForQNJ_Example.release.xcconfig */,
+				CF86D6EC91DBB8BE3F75F5CD5FE96702 /* Pods-FaceSDKForQNJ_Example.modulemap */,
+				F2F456F76607FB51B6193CD3DE53BE64 /* Pods-FaceSDKForQNJ_Example-acknowledgements.markdown */,
+				BD85DED324FDF438B73AC9392694EE5D /* Pods-FaceSDKForQNJ_Example-acknowledgements.plist */,
+				A382AE5383EDF2C2F08E71403F5856C6 /* Pods-FaceSDKForQNJ_Example-dummy.m */,
+				0A2656136DD066110713A2F8B776A7A1 /* Pods-FaceSDKForQNJ_Example-frameworks.sh */,
+				C6DA7694D2F613FB1902384FF7B67449 /* Pods-FaceSDKForQNJ_Example-Info.plist */,
+				F31CED29C93A29F59FCC1BE0D46D38A8 /* Pods-FaceSDKForQNJ_Example-umbrella.h */,
+				9F35247AAEDEF038DDAB9737D4C6E9DB /* Pods-FaceSDKForQNJ_Example.debug.xcconfig */,
+				21448A217794F877C63981F01577706B /* Pods-FaceSDKForQNJ_Example.release.xcconfig */,
 			);
 			name = "Pods-FaceSDKForQNJ_Example";
 			path = "Target Support Files/Pods-FaceSDKForQNJ_Example";
-			sourceTree = "<group>";
-		};
-		A5CE54CF7BA6FD4F0AB5998D4C5C55BB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A8BAD493BFCC446B26521129726B7098 /* FaceSDKForQNJ.podspec */,
-				4BA461A876B42BAFBF7503DD48F92646 /* LICENSE */,
-				6293783DDA8920D8B695BD49E128FC9D /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		A686354B22E4E7A3CC874C310224DF31 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9E734D8E3A56C0D55B57676E0F012AE6 /* FaceSDKForQNJ.framework */,
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
-				33FA01389D5149A9C7426C8313C78A21 /* Pods_FaceSDKForQNJ_Example.framework */,
-				2C232A587F2F0637E7BB5026AEF91F7E /* Pods_FaceSDKForQNJ_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7DE5752EED0A4C4A430975244947611A /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				932D9120F6641C0E9915F3672E57707E /* Development Pods */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				A686354B22E4E7A3CC874C310224DF31 /* Products */,
-				5F5755423632AF481EA261B6B5137C35 /* Targets Support Files */,
+				06ED1323643145D2F653D140A66B2BD3 /* Development Pods */,
+				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
+				F0AAC8CD8E582AFF4148EF22B95EB429 /* Products */,
+				560306A8CDB9369B61752EC27C75271D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+		CFB5FC376209BC090B20595FA8EC4BE1 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */,
+				AC93ED3AC4C31FA00866845AE1AD8B9E /* MGIDBoxLayer.h */,
+				F71FEAC75A7E6503B931D4372657E401 /* MGIDCard.h */,
+				E461392ECFC6E3074105AE33EA94AB44 /* MGIDCardBundle.h */,
+				1667802BDA7C572F6C95D1548856BD1F /* MGIDCardConfig.h */,
+				14937C39E13C9DB65294031DA18599FE /* MGIDCardDefaultViewController.h */,
+				920B794F1E5349E754355C31C90E374E /* MGIDCardDetectBaseViewController.h */,
+				BEF9FB18BF6AA93197A12DB0EC1F821C /* MGIDCardDetectManager.h */,
+				24BCECADCB669662F14AA202DD4F9E3D /* MGIDCardManager.h */,
+				934DD89FEFE80FDE45A4FD74726D3BA5 /* MGIDCardModel.h */,
+				7012846DE1D804C821752FCBA8111146 /* MGIDCardQualityAssessment.h */,
+				F540236AE9DDF27A70294DB9AE3459D6 /* MGIDCardViewController.h */,
 			);
-			name = Pods;
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		F0AAC8CD8E582AFF4148EF22B95EB429 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E734D8E3A56C0D55B57676E0F012AE6 /* FaceSDKForQNJ.framework */,
+				33FA01389D5149A9C7426C8313C78A21 /* Pods_FaceSDKForQNJ_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1CA143F6CFAAFA1280B32286FF2F71E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8553DFD5AE12DD6B9BB207C17F5400A5 /* MGBaseKit.framework */,
+				5F321A1C8303B9DB9BF7F44B3167643F /* MGIDCard.framework */,
+				17DDCAB97AE093C420367A76AAC2E4DE /* MGLivenessDetection.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F91D97821369BF58286016901A15C2C2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADA95B78997ADE7FE96A4321F730ACDF /* AVFoundation.framework */,
+				78F62424721DAB8FE6C3D6EC5AF8A12B /* CoreMedia.framework */,
+				9B1219DA3F48D6B292B18A9AB6F1D70C /* CoreMotion.framework */,
+				291E4A46B10343D3D60A02B119E9787C /* Foundation.framework */,
+				7B53912576F9FBF836EC094810158523 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
-				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
-				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
-				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
-				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
-				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
-				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7727428FC9E1A92E37932FBE374D6342 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62557D9A231F0125D45B04F3FA743FD4 /* Pods-FaceSDKForQNJ_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		78868B376D0ACB8F1BD0426F70359474 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,35 +411,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE60E33F83FFD713D20A8AC1790F8EF0 /* Headers */ = {
+		891412E8D33B897E4C67900CB0565B15 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BF9BD4F700DB99AABB084D0529AD1AA /* FaceSDKForQNJ-umbrella.h in Headers */,
+				065A96D2AF892BDA103D1D52A4F3118C /* FaceSDKForQNJ-umbrella.h in Headers */,
+				8B1630E0D4FE68A39B4037603742DAE9 /* LicenseManager.h in Headers */,
+				16E4C0A0C6F89EF8BD0EA3D2CF40B1FB /* LivenessDetector.h in Headers */,
+				D16A28FBC43E163F8DE0D8C124488488 /* LivenessEnumType.h in Headers */,
+				D4ED3BE88D2255A624286EF03B5E3FEB /* MGAnimation.h in Headers */,
+				B95C9831B85A3570C4B7D11E9B94F475 /* MGAutoSessionPreset.h in Headers */,
+				5D22C314E87E6BC6D6B2457A75E7595F /* MGBaseBottomManager.h in Headers */,
+				6A7A1F9087088DEE82A5C8227009EA93 /* MGBaseCountdownView.h in Headers */,
+				D56E1B1172546DC40B202E564E1A2485 /* MGBaseDefine.h in Headers */,
+				8B56B5B5D549DD7AC8BC97B729E4F5CA /* MGBaseKit.h in Headers */,
+				857DB6D680E1D2961DE82A4FBF2B7BBE /* MGCountDownRingView.h in Headers */,
+				3AEA8EC5C8540EE849365FE852807888 /* MGCountDownTextView.h in Headers */,
+				6F03E9D54715E63E60FEC311CCEED84B /* MGDefaultBottomManager.h in Headers */,
+				97D86169F5D0304E8687937879D650BD /* MGFaceQualityManager.h in Headers */,
+				05BB8E89DA86F81F38443B5D5B173162 /* MGIDBoxLayer.h in Headers */,
+				B24B40D0EB39B686D0E546C206015559 /* MGIDCard.h in Headers */,
+				5614884A590045A51E132FF820927618 /* MGIDCardBundle.h in Headers */,
+				B0DD3B137CD3C5FABA22354B76FB9F58 /* MGIDCardConfig.h in Headers */,
+				E54AA41A2ACE41FCFD93373558CD60C8 /* MGIDCardDefaultViewController.h in Headers */,
+				8C65CEE2FE241A22901D7479B4B7A33D /* MGIDCardDetectBaseViewController.h in Headers */,
+				6DFCD3A635EBDED7DE518195587D445B /* MGIDCardDetectManager.h in Headers */,
+				3ED7570480876F6777FCA9E70673B7DD /* MGIDCardManager.h in Headers */,
+				809A79A064DAFC0AA8468F664A81246D /* MGIDCardModel.h in Headers */,
+				A7943F14AC42FA710F48CC080945E3A4 /* MGIDCardQualityAssessment.h in Headers */,
+				E7022D01B6512C4CCF6C0540ACD8179B /* MGIDCardViewController.h in Headers */,
+				4E7C7F06A80E212FF04A4CAAFD853C53 /* MGImage.h in Headers */,
+				2B893596299C803551E3B91CD02663F4 /* MGLicenseManager.h in Headers */,
+				3AB15C8EAAFD81A54B82721EBB908247 /* MGLiveActionManager.h in Headers */,
+				0E332CFA5754396B38898C309A42410B /* MGLiveBaseDetectViewController.h in Headers */,
+				A5D3E250EA27D29BC90E06B3D8BB7A75 /* MGLiveBundle.h in Headers */,
+				B615C5B4B9422ED448B507852876C9F6 /* MGLiveConfig.h in Headers */,
+				4F3464306355D32A4612AEE9B3D04815 /* MGLiveDefaultDetectVC.h in Headers */,
+				49B7ECDACB01AFB2F6798DDD9AF9892A /* MGLiveDetectionDelegate.h in Headers */,
+				DF8DCD8FF8B6ADD471A0E9095A18DB6F /* MGLiveDetectionManager.h in Headers */,
+				591418F2EE698B710BDF536C0DAB5863 /* MGLiveDetectViewController.h in Headers */,
+				7750623EEB9EB9F220329F12FD153701 /* MGLiveErrorManager.h in Headers */,
+				08EE42A8F71E67B37A35F104E3FAF325 /* MGLiveManager.h in Headers */,
+				B7BCF7F12950BE6F4C5A44107AE65024 /* MGLivenessDetection.h in Headers */,
+				AB6B3C6EF830DF5B80A0A8BAD63EDF03 /* MGLogManager.h in Headers */,
+				114855D81CF43EAE3760783EB7FF7EC0 /* MGMovieRecorder.h in Headers */,
+				224FC282B75B948225921015A00E59E6 /* MGPlayAudio.h in Headers */,
+				7CFF99A5F0D163686AEE505A7AF042C9 /* MGVideoDelegate.h in Headers */,
+				3FE9520F24D06C76D10A9CD5C872C5D6 /* MGVideoManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
-			buildPhases = (
-				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
-				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
-				E581515110D66F94F80A6937831489A1 /* Frameworks */,
-				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		BCBCF2B9604FF0DD4440890F4BA9CCBE /* Pods-FaceSDKForQNJ_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 058CEB746327AB5473A1CF7CBB0D2927 /* Build configuration list for PBXNativeTarget "Pods-FaceSDKForQNJ_Example" */;
@@ -436,34 +483,14 @@
 			productReference = 33FA01389D5149A9C7426C8313C78A21 /* Pods_FaceSDKForQNJ_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D8CC3BD4BB9752037AD25D0E5741D051 /* Pods-FaceSDKForQNJ_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B174F7F62D9B85EFE75B13991234A63F /* Build configuration list for PBXNativeTarget "Pods-FaceSDKForQNJ_Tests" */;
-			buildPhases = (
-				7727428FC9E1A92E37932FBE374D6342 /* Headers */,
-				EDC35CBD5F4C734B88437C38AD76F6F9 /* Sources */,
-				C49004A3F5457B8AE975E7EE662644CA /* Frameworks */,
-				02D5121BC7A640824DE0EDEC39EAE27B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2688AF20263729338156E8EC883897BB /* PBXTargetDependency */,
-				F8AFA61F0A4F9FDBAA572EB5E1CACC6A /* PBXTargetDependency */,
-			);
-			name = "Pods-FaceSDKForQNJ_Tests";
-			productName = "Pods-FaceSDKForQNJ_Tests";
-			productReference = 2C232A587F2F0637E7BB5026AEF91F7E /* Pods_FaceSDKForQNJ_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		F8B2592A5F49A804CCF5AEB0CF4D7B39 /* FaceSDKForQNJ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D679F10359875A1A2DB129A27E984071 /* Build configuration list for PBXNativeTarget "FaceSDKForQNJ" */;
+			buildConfigurationList = 6083E90EB874529561F0E0B2DD64568B /* Build configuration list for PBXNativeTarget "FaceSDKForQNJ" */;
 			buildPhases = (
-				FE60E33F83FFD713D20A8AC1790F8EF0 /* Headers */,
-				692D1E4E35ED0E7F940C79D8DB47D2E0 /* Sources */,
-				C23CB98488CE2D3F0C4F849E31C56DE0 /* Frameworks */,
-				6AB242D3C202DEF331DF35E260B32314 /* Resources */,
+				891412E8D33B897E4C67900CB0565B15 /* Headers */,
+				9BA5BD32B9D43BDDB383D32BAA38DB7D /* Sources */,
+				F92813CEB6BAD58D9A915A6D16562E68 /* Frameworks */,
+				296EE2D5F9CE8742087DE9181B7D01AF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -491,26 +518,17 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = A686354B22E4E7A3CC874C310224DF31 /* Products */;
+			productRefGroup = F0AAC8CD8E582AFF4148EF22B95EB429 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F8B2592A5F49A804CCF5AEB0CF4D7B39 /* FaceSDKForQNJ */,
-				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
 				BCBCF2B9604FF0DD4440890F4BA9CCBE /* Pods-FaceSDKForQNJ_Example */,
-				D8CC3BD4BB9752037AD25D0E5741D051 /* Pods-FaceSDKForQNJ_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		02D5121BC7A640824DE0EDEC39EAE27B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1635EC1D5DA8FF980934425BF6E99C52 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -518,45 +536,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+		296EE2D5F9CE8742087DE9181B7D01AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6AB242D3C202DEF331DF35E260B32314 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				16E2653C84B6E1C24FE3341372EA84EF /* MGIDCardResource.bundle in Resources */,
+				40DA5CB58AC009E09B68F4C165E30736 /* MGLivenessDetectionResource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		692D1E4E35ED0E7F940C79D8DB47D2E0 /* Sources */ = {
+		9BA5BD32B9D43BDDB383D32BAA38DB7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				766B82F440DAA54C137BC39E30CEB5CD /* FaceSDKForQNJ-dummy.m in Sources */,
-				28FC58EB57FE65366491EFC24A56E1E9 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
-				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
-				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
-				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
-				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
-				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
-				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
-				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
-				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+				CB512FAE1E955B30A37FD2AE8775D6A7 /* FaceSDKForQNJ-dummy.m in Sources */,
+				5558EAFA742332241E7253FB4327FE34 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,137 +565,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDC35CBD5F4C734B88437C38AD76F6F9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA0588BCEFBBB4977320F3C79571F137 /* Pods-FaceSDKForQNJ_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2688AF20263729338156E8EC883897BB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = A80E5A0BE4C178721A988ED639C3BD5B /* PBXContainerItemProxy */;
-		};
 		5591CC83A12FE5DF1FC0AB2E09802BF3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FaceSDKForQNJ;
 			target = F8B2592A5F49A804CCF5AEB0CF4D7B39 /* FaceSDKForQNJ */;
 			targetProxy = F569E5310B73839E5C2A679498DB870B /* PBXContainerItemProxy */;
 		};
-		F8AFA61F0A4F9FDBAA572EB5E1CACC6A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-FaceSDKForQNJ_Example";
-			target = BCBCF2B9604FF0DD4440890F4BA9CCBE /* Pods-FaceSDKForQNJ_Example */;
-			targetProxy = B1D5D8047A6A08A9A53FF502CA1233D3 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04C2EEB3CBDC50B29744C11CB0999B56 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96CF8DFF515CFBE29158C52B4C028C56 /* FaceSDKForQNJ.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FaceSDKForQNJ/FaceSDKForQNJ-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FaceSDKForQNJ/FaceSDKForQNJ-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FaceSDKForQNJ/FaceSDKForQNJ.modulemap";
-				PRODUCT_MODULE_NAME = FaceSDKForQNJ;
-				PRODUCT_NAME = FaceSDKForQNJ;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1D976EB6490186F89684F96253E19A51 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 936D6C633DA3C73C0A7A8C9B1AF1D7B5 /* Pods-FaceSDKForQNJ_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FaceSDKForQNJ_Tests/Pods-FaceSDKForQNJ_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FaceSDKForQNJ_Tests/Pods-FaceSDKForQNJ_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		23B15B786AF5DB72477A13CA7AABF347 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96CF8DFF515CFBE29158C52B4C028C56 /* FaceSDKForQNJ.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FaceSDKForQNJ/FaceSDKForQNJ-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FaceSDKForQNJ/FaceSDKForQNJ-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FaceSDKForQNJ/FaceSDKForQNJ.modulemap";
-				PRODUCT_MODULE_NAME = FaceSDKForQNJ;
-				PRODUCT_NAME = FaceSDKForQNJ;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		349C1DB5124796B4CC1B4D9E3DBC06BF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF1A27947E2A813AEF097EAD72ECA7CB /* Pods-FaceSDKForQNJ_Example.release.xcconfig */;
+			baseConfigurationReference = 21448A217794F877C63981F01577706B /* Pods-FaceSDKForQNJ_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -723,6 +604,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3AB7EDD9A73CE566AF610B0BC30E968A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B067BADBAD910DB6E1C7729A81BC9E /* FaceSDKForQNJ.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FaceSDKForQNJ/FaceSDKForQNJ-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FaceSDKForQNJ/FaceSDKForQNJ-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FaceSDKForQNJ/FaceSDKForQNJ.modulemap";
+				PRODUCT_MODULE_NAME = FaceSDKForQNJ;
+				PRODUCT_NAME = FaceSDKForQNJ;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -790,38 +703,6 @@
 			};
 			name = Release;
 		};
-		6981B49048575F8238B3C5B905C918E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -886,9 +767,40 @@
 			};
 			name = Debug;
 		};
+		95D62E318F539356253A141759AAF3C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B067BADBAD910DB6E1C7729A81BC9E /* FaceSDKForQNJ.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FaceSDKForQNJ/FaceSDKForQNJ-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FaceSDKForQNJ/FaceSDKForQNJ-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FaceSDKForQNJ/FaceSDKForQNJ.modulemap";
+				PRODUCT_MODULE_NAME = FaceSDKForQNJ;
+				PRODUCT_NAME = FaceSDKForQNJ;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C2D7E01AF12382B478BF860F3849EA9B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93FFF4AAE5469D72CAA3F7DB46A3AA0C /* Pods-FaceSDKForQNJ_Example.debug.xcconfig */;
+			baseConfigurationReference = 9F35247AAEDEF038DDAB9737D4C6E9DB /* Pods-FaceSDKForQNJ_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -919,71 +831,6 @@
 			};
 			name = Debug;
 		};
-		EE252C6C51286892441EE171776C7E81 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FA848324879EE3C48C9743DE8AE06DD4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4ED7E9F946D369532E95C3A4B365E3F8 /* Pods-FaceSDKForQNJ_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FaceSDKForQNJ_Tests/Pods-FaceSDKForQNJ_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FaceSDKForQNJ_Tests/Pods-FaceSDKForQNJ_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1005,29 +852,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+		6083E90EB874529561F0E0B2DD64568B /* Build configuration list for PBXNativeTarget "FaceSDKForQNJ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE252C6C51286892441EE171776C7E81 /* Debug */,
-				6981B49048575F8238B3C5B905C918E5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B174F7F62D9B85EFE75B13991234A63F /* Build configuration list for PBXNativeTarget "Pods-FaceSDKForQNJ_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1D976EB6490186F89684F96253E19A51 /* Debug */,
-				FA848324879EE3C48C9743DE8AE06DD4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D679F10359875A1A2DB129A27E984071 /* Build configuration list for PBXNativeTarget "FaceSDKForQNJ" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04C2EEB3CBDC50B29744C11CB0999B56 /* Debug */,
-				23B15B786AF5DB72477A13CA7AABF347 /* Release */,
+				95D62E318F539356253A141759AAF3C9 /* Debug */,
+				3AB7EDD9A73CE566AF610B0BC30E968A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,9 +1,9 @@
 {
   "name": "FaceSDKForQNJ",
   "version": "0.1.0",
-  "summary": "A short description of FaceSDKForQNJ.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Jing/FaceSDKForQNJ",
+  "summary": "face++ V2版本 方便马甲包集成 不包含action",
+  "description": "去哪借sdk v2版本 只单独包含face++",
+  "homepage": "https://github.com/heyuefengyun/FaceSDKForQNJ",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,28 @@
     "Jing": "841653650@qq.com"
   },
   "source": {
-    "git": "https://github.com/Jing/FaceSDKForQNJ.git",
+    "git": "git@github.com:heyuefengyun/FaceSDKForQNJ.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "FaceSDKForQNJ/Classes/**/*"
+  "source_files": "FaceSDKForQNJ/Classes/**/*.{h,m,mm}",
+  "ios": {
+    "vendored_frameworks": [
+      "FaceSDKForQNJ/Classes/MGBaseKit.framework",
+      "FaceSDKForQNJ/Classes/MGIDCard.framework",
+      "FaceSDKForQNJ/Classes/MGLivenessDetection.framework"
+    ]
+  },
+  "resources": [
+    "FaceSDKForQNJ/Classes/MGIDCardResource.bundle",
+    "FaceSDKForQNJ/Classes/MGLivenessDetectionResource.bundle"
+  ],
+  "frameworks": [
+    "AVFoundation",
+    "CoreMedia",
+    "CoreMotion",
+    "SystemConfiguration"
+  ]
 }
